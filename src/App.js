@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import CarShop from './CarShop/CarShop';
+import ExerciseCard from './ExerciseCard/ExerciseCard';
 import PhoneShop from './PhoneShop/PhoneShop';
 import HomeLayout from './Prop/HomeLayout';
 // import Product from './Prop/Product';
@@ -19,6 +20,8 @@ function App() {
       <PhoneShop/>
       <hr/>
       <CarShop/>
+      <hr/>
+      <ExerciseCard/>
     </div>
   );
 }
